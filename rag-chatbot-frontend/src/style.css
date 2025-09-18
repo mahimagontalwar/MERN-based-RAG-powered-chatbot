@@ -1,0 +1,36 @@
+.app {
+  max-width: 600px;
+  margin: 50px auto;
+  font-family: Arial, sans-serif;
+}
+
+.chat-window {
+  border: 1px solid #ccc;
+  padding: 10px;
+  height: 400px;
+  overflow-y: auto;
+  margin-bottom: 10px;
+}
+
+.chat-message.user {
+  text-align: right;
+  color: blue;
+}
+
+.chat-message.bot {
+  text-align: left;
+  color: green;
+}
+
+.input-box {
+  display: flex;
+}
+
+.input-box input {
+  flex: 1;
+  padding: 8px;
+}
+
+.input-box button {
+  padding: 8px 16px;
+}
